@@ -1,7 +1,8 @@
-package com.mhmdawad.mealz
+package com.mhmdawad.mealz.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.mhmdawad.mealz.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
