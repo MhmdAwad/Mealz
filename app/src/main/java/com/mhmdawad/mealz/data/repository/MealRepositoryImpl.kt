@@ -4,8 +4,9 @@ import com.mhmdawad.mealz.data.remote.dto.MealCategoryDto
 import com.mhmdawad.mealz.data.remote.dto.MealDetailDto
 import com.mhmdawad.mealz.data.remote.response.MealApi
 import com.mhmdawad.mealz.domain.repository.MealRepository
+import javax.inject.Inject
 
-class MealRepositoryImpl constructor(
+class MealRepositoryImpl @Inject constructor(
     private val mealApi: MealApi
 ): MealRepository {
 
